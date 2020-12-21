@@ -32,18 +32,22 @@ button {
   border: none;
   color: #ece9f2;
   padding: 10px 25px;
-  display: inline-block;
   font-size: 20px;
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
 }
 
 button:hover {
   background-color: #482985;
 }
 
+button:active {
+  transform: translateY(4px);
+}
+
 .mainTitle {
   color: #5e36ad;
   position: absolute;
+  letter-spacing: 3px;
   top: 50%;
   left: 50%;
   margin: 0 -50% 0 0;
@@ -69,6 +73,14 @@ button:hover {
   margin-bottom: 50px;
 }
 
+.projectTitle {
+  margin-bottom: 10px;
+}
+
+div .project {
+  margin-bottom: 20px;
+}
+
 .projectsRow {
   width: 100%;
   display: flex;
@@ -86,32 +98,27 @@ button:hover {
 
 @keyframes dropVanish {
   30% {
-    transform: translate(0, -50px) rotate(180deg) scale(1);
     color: #e3700b;
   }
 
   50% {
-    transform: translate(0, 20px) scale(.8) rotate(0deg);
     opacity: 0.8;
     color: #e3700b;
   }
 
   80% {
-    transform: translate(-100px, -100px) scale(1.5) rotate(-180deg);
-    opacity: 0;
+    opacity: 0.1;
     color: #e3700b;
   }
 
   100% {
-    transform: translate(0) scale(1) rotate(0deg);
     opacity: 0.8;
     color: #e3700b;
   }
 }
 
 .mainTitle span {
-  transform: translate(0, -100px) rotate(360deg) scale(0);
-  animation: dropVanish 1s forwards;
+  animation: dropVanish 1.1s forwards;
 }
 
 .mainTitle span:nth-of-type(2) {
