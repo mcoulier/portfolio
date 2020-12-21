@@ -42,7 +42,7 @@ button:hover {
 }
 
 .mainTitle {
-  color: #D1CCDC;
+  color: #5e36ad;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -56,7 +56,6 @@ button:hover {
   left: 50%;
   margin: 0 -50% 0 0;
   transform: translate(-50%, -50%)
-
 }
 
 .projectsView {
@@ -81,4 +80,94 @@ button:hover {
 .projectColumn {
   display: flex;
   flex-direction: column;
+}
+
+/*---------Beginning Animation-----------*/
+
+@keyframes dropVanish {
+  30% {
+    transform: translate(0, -50px) rotate(180deg) scale(1);
+    color: #e3700b;
+  }
+
+  50% {
+    transform: translate(0, 20px) scale(.8) rotate(0deg);
+    opacity: 0.8;
+    color: #e3700b;
+  }
+
+  80% {
+    transform: translate(-100px, -100px) scale(1.5) rotate(-180deg);
+    opacity: 0;
+    color: #e3700b;
+  }
+
+  100% {
+    transform: translate(0) scale(1) rotate(0deg);
+    opacity: 0.8;
+    color: #e3700b;
+  }
+}
+
+.mainTitle span {
+  transform: translate(0, -100px) rotate(360deg) scale(0);
+  animation: dropVanish 1s forwards;
+}
+
+.mainTitle span:nth-of-type(2) {
+  animation-delay: .05s;
+}
+.mainTitle span:nth-of-type(3) {
+  animation-delay: .1s;
+}
+.mainTitle span:nth-of-type(4) {
+  animation-delay: .15s;
+}
+.mainTitle span:nth-of-type(5) {
+  animation-delay: .2s;
+}
+.mainTitle span:nth-of-type(6) {
+  animation-delay: .25s;
+}
+.mainTitle span:nth-of-type(7) {
+  animation-delay: .3s;
+}
+.mainTitle span:nth-of-type(8) {
+  animation-delay: .35s;
+}
+.mainTitle span:nth-of-type(9) {
+  animation-delay: .4s;
+}
+.mainTitle span:nth-of-type(10) {
+  animation-delay: .45s;
+}
+.mainTitle span:nth-of-type(11) {
+  animation-delay: .5s;
+}
+.mainTitle span:nth-of-type(12) {
+  animation-delay: .55s;
+}
+.mainTitle span:nth-of-type(13) {
+  animation-delay: .6s;
+}
+.mainTitle span:nth-of-type(14) {
+  animation-delay: .65s;
+}
+.mainTitle span:nth-of-type(15) {
+  animation-delay: .7s;
+}
+.mainTitle span:nth-of-type(16) {
+  animation-delay: .75s;
+}
+.mainTitle span:nth-of-type(17) {
+  animation-delay: .8s;
+}
+.mainTitle span:nth-of-type(18) {
+  animation-delay: .85s;
+}
+.mainTitle span:nth-of-type(19) {
+  animation-delay: .9s;
+}
+.mainTitle span:nth-of-type(20) {
+  animation-delay: .95s;
 }
