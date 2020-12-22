@@ -28,7 +28,6 @@ function Header() {
                             <img className="mailIcon"  src={mailIcon} alt="mailIcon" width={35} height={35}/>
                         </a>
 
-
                 </ul>
             </nav>
         </div>

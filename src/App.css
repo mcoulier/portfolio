@@ -73,13 +73,15 @@ button:active {
 }
 
 .projectsTitle {
-    color: #D1CCDC;
+    color: #5e36ad;
+    text-shadow: 2px 1px #191919;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 50px;
 }
 
 .projectTitle {
+    color: #e3700b;
     margin-bottom: 10px;
     font-size: 17px;
 }
@@ -90,7 +92,7 @@ button:active {
 
 .projectImage:hover {
     opacity: 0.6;
-    border: #e3700b 1px solid;
+    border: #5e36ad 1px solid;
     /*
     transition-duration: 0.5s;
     */

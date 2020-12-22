@@ -1,9 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import Project from "./Project";
-import ProjectTwo from "./ProjectTwo";
-import ProjectThree from "./ProjectThree";
-import ProjectFour from "./ProjectFour";
 
 function ProjectsView() {
     return (
@@ -11,12 +8,12 @@ function ProjectsView() {
             <h1 className="projectsTitle">Projects</h1>
             <div className='projectsRow'>
                 <div className='projectsColumn'>
-                    <Project/>
-                    <ProjectTwo/>
+                    <Project title="1" url="https://github.com/nikkizol/challenge-workflow"/>
+                    <Project title="2" url="https://github.com/nikkizol/challenge-workflow"/>
                 </div>
                 <div className='projectsColumn'>
-                    <ProjectThree/>
-                    <ProjectFour/>
+                    <Project title="3" url="https://github.com/nikkizol/challenge-workflow"/>
+                    <Project title="4" url="https://github.com/nikkizol/challenge-workflow"/>
                 </div>
             </div>
         </div>

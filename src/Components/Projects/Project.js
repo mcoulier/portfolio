@@ -2,12 +2,12 @@ import React from 'react';
 import '../../App.css';
 import ProjectImage from '../../Assets/project.jpg';
 
-function Project() {
+function Project(props) {
     return (
         <div className='project'>
-            <h2 className='projectTitle'>Ticket Desk App</h2>
-            <a href="https://github.com/nikkizol/challenge-workflow" target="_blank" rel="noreferrer">
-            <img className='projectImage' src={ProjectImage} alt="projectImage" width={200} height={140}/>
+            <h2 className='projectTitle'>{props.title}</h2>
+            <a href={props.url} target="_blank" rel="noreferrer">
+                <img className='projectImage' src={props.image} alt="projectImage" width={200} height={140}/>
             </a>
         </div>
     )
