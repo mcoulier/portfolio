@@ -8,7 +8,7 @@ import ProjectFour from "./ProjectFour";
 function ProjectsView() {
     return (
         <div className='projectsView'>
-            <h1 className="projectsTitle">Welcome to my projects page</h1>
+            <h1 className="projectsTitle">Projects</h1>
             <div className='projectsRow'>
                 <div className='projectsColumn'>
                     <Project/>

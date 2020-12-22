@@ -4,26 +4,35 @@ import githubIcon from '../Assets/github.png';
 import linkedinIcon from '../Assets/linkedin.png';
 import mailIcon from '../Assets/email.png';
 
-function Header () {
-        return (
-            <div className="navHeader">
-                <nav>
-                    <ul>
-                        <NavLink to="/"><button>Home</button></NavLink>
-                        <a href="../Assets/Michiel_Coulier_CV.pdf" download target="_blank" rel="noreferrer"><button><i className="fa fa-download"/> CV</button></a>
+function Header() {
+    return (
+        <div className="navHeader">
+            <nav>
+                <ul>
+
+                    <NavLink to="/">
+                        <button>Home</button>
+                    </NavLink>
+
+                    <a href="../Assets/Michiel_Coulier_CV.pdf" download target="_blank" rel="noreferrer">
+                        <button><i className="fa fa-download"/> CV</button>
+                    </a>
+
                         <a href="https://github.com/mcoulier" target="_blank" rel="noreferrer">
-                            <img src={githubIcon} alt="githubIcon" width={30} height={30}/>
+                            <img className="githubIcon" src={githubIcon} alt="githubIcon" width={35} height={35}/>
                         </a>
                         <a href="https://www.linkedin.com/in/michiel-coulier/" target="_blank" rel="noreferrer">
-                            <img src={linkedinIcon} alt="linkedinIcon" width={30} height={30}/>
+                            <img className="linkedinIcon"  src={linkedinIcon} alt="linkedinIcon" width={35} height={35}/>
                         </a>
                         <a href="mailto:michielcoulier@gmail.com">
-                            <img src={mailIcon} alt="mailIcon" width={30} height={30}/>
+                            <img className="mailIcon"  src={mailIcon} alt="mailIcon" width={35} height={35}/>
                         </a>
-                    </ul>
-                </nav>
-            </div>
-        )
+
+
+                </ul>
+            </nav>
+        </div>
+    )
 }
 
 export default Header;
