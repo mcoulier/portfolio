@@ -8,7 +8,7 @@ function ProjectsView() {
             <h1 className="projectsTitle">Projects</h1>
             <div className='projectsRow'>
                 <div className='projectsColumn'>
-                    <Project title="1" url="https://github.com/nikkizol/challenge-workflow"/>
+                    <Project title="1" url="https://github.com/nikkizol/challenge-workflow" image="https://portfolio-dac64.web.app/project.jpg"/>
                     <Project title="2" url="https://github.com/nikkizol/challenge-workflow"/>
                 </div>
                 <div className='projectsColumn'>
