@@ -5,8 +5,10 @@ import ProjectImage from '../../Assets/project.jpg';
 function Project() {
     return (
         <div className='project'>
-            <h2 className='projectTitle'>Ticket desk app</h2>
-            <img src={ProjectImage} alt="projectImage" width={200} height={140}/>
+            <h2 className='projectTitle'>Ticket Desk App</h2>
+            <a href="https://github.com/nikkizol/challenge-workflow" target="_blank" rel="noreferrer">
+            <img className='projectImage' src={ProjectImage} alt="projectImage" width={200} height={140}/>
+            </a>
         </div>
     )
 }

@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import {Link, NavLink} from "react-router-dom";
+import React from "react";
+import {NavLink} from "react-router-dom";
 import githubIcon from '../Assets/github.png';
 import linkedinIcon from '../Assets/linkedin.png';
 import mailIcon from '../Assets/email.png';
@@ -10,11 +10,11 @@ function Header () {
                 <nav>
                     <ul>
                         <NavLink to="/"><button>Home</button></NavLink>
-                        <NavLink to="/projects"><button>Projects</button></NavLink>
-                        <a href="https://github.com/mcoulier" target="_blank">
+                        <a href="../Assets/Michiel_Coulier_CV.pdf" download target="_blank" rel="noreferrer"><button><i className="fa fa-download"/> CV</button></a>
+                        <a href="https://github.com/mcoulier" target="_blank" rel="noreferrer">
                             <img src={githubIcon} alt="githubIcon" width={30} height={30}/>
                         </a>
-                        <a href="https://www.linkedin.com/in/michiel-coulier/" target="_blank">
+                        <a href="https://www.linkedin.com/in/michiel-coulier/" target="_blank" rel="noreferrer">
                             <img src={linkedinIcon} alt="linkedinIcon" width={30} height={30}/>
                         </a>
                         <a href="mailto:michielcoulier@gmail.com">
