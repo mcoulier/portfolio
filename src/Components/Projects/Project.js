@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import ProjectImage from '../../Assets/project.jpg';
 
 function Project(props) {
     return (
