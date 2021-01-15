@@ -1,6 +1,16 @@
 {
   "data": [
     {
+      "title": "React Movie App",
+      "url": "https://github.com/mcoulier/react-movie-app",
+      "image": "https://portfolio-dac64.web.app/react-movie-app.png"
+    },
+    {
+      "title": "Node.js User Authentication",
+      "url": "https://github.com/mcoulier/node-user-auth",
+      "image": "https://portfolio-dac64.web.app/node-user-auth.png"
+    },
+    {
       "title": "Ticketing system",
       "url": "https://github.com/nikkizol/challenge-workflow",
       "image": "https://portfolio-dac64.web.app/ticket-system.png"
@@ -14,11 +24,6 @@
       "title": "MySQL CRUD PHP",
       "url": "https://github.com/MonoraxXiV/php-crud",
       "image": "https://portfolio-dac64.web.app/php-crud-mysql.png"
-    },
-    {
-      "title": "React Movie App",
-      "url": "https://github.com/mcoulier/react-movie-app",
-      "image": "https://portfolio-dac64.web.app/react-movie-app.png"
     }
   ]
 }
