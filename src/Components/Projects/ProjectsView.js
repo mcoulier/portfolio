@@ -11,8 +11,8 @@ class ProjectsView extends React.Component {
                 <h1 className="projectsTitle">Projects</h1>
                 <div className='projectsRow'>
                     {
-                        projects.map((value) => {
-                            return <Project title={value.title} url={value.url} image={value.image}/>
+                        projects.map((project) => {
+                            return <Project key={project.id} title={project.title} url={project.url} image={project.image}/>
                         })
                     }
                 </div>

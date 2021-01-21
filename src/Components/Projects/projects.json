@@ -1,26 +1,31 @@
 {
   "data": [
     {
+      "id": 1,
       "title": "React Movie App",
       "url": "https://github.com/mcoulier/react-movie-app",
       "image": "https://portfolio-dac64.web.app/react-movie-app.png"
     },
     {
-      "title": "Node.js User Authentication",
+      "id": 2,
+      "title": "Node.js User Auth",
       "url": "https://github.com/mcoulier/node-user-auth",
       "image": "https://portfolio-dac64.web.app/node-user-auth.png"
     },
     {
+      "id": 3,
       "title": "Ticketing system",
       "url": "https://github.com/nikkizol/challenge-workflow",
       "image": "https://portfolio-dac64.web.app/ticket-system.png"
     },
     {
+      "id": 4,
       "title": "Pokédex API",
       "url": "https://github.com/mcoulier/challenge-pokemon-php",
       "image": "https://portfolio-dac64.web.app/pokedex-api.png"
     },
     {
+      "id": 5,
       "title": "MySQL CRUD PHP",
       "url": "https://github.com/MonoraxXiV/php-crud",
       "image": "https://portfolio-dac64.web.app/php-crud-mysql.png"

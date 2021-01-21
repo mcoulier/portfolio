@@ -110,12 +110,6 @@ button:active {
     justify-content: space-evenly;
 }
 
-.projectColumn {
-    display: flex;
-    flex-direction: column;
-}
-
-
 /*---------Beginning Animation-----------*/
 
 @keyframes dropVanish {
