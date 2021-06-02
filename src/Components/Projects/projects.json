@@ -2,9 +2,9 @@
   "data": [
     {
       "id": 1,
-      "title": "React Movie App",
-      "url": "https://github.com/mcoulier/react-movie-app",
-      "image": "https://portfolio-dac64.web.app/react-movie-app.png"
+      "title": "React Tv-show App",
+      "url": "https://github.com/mcoulier/react-tvshowdb",
+      "image": "https://portfolio-dac64.web.app/react-tv.png"
     },
     {
       "id": 2,

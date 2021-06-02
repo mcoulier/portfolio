@@ -14,7 +14,7 @@ function Header() {
                         <button>Home</button>
                     </NavLink>
 
-                    <a href="https://drive.google.com/file/d/1HDKbmBVWxhTPPQl6qmKo70pVb7cmKa71/view?usp=sharing"
+                    <a href="https://drive.google.com/file/d/1LzJv2tEIMf3JVmkP7OvdazTlBVkygVWH/view?usp=sharing"
                        download target="_blank" rel="noreferrer">
                         <button><i className="fa fa-download"/> CV</button>
                     </a>
