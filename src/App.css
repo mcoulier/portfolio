@@ -1,214 +1,219 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Rubik', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
 }
 
 nav {
-    background-color: #292828;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+  background-color: #292828;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 nav ul {
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 nav ul a {
-    margin: 6px;
+  margin: 6px;
 }
 
 body {
-    background: #252627;
+  background: #252627;
 }
 
 button {
-    background-color: #5e36ad;
-    border: none;
-    color: #ece9f2;
-    padding: 10px 15px;
-    font-size: 20px;
-    transition-duration: 0.3s;
+  background-color: #5e36ad;
+  border: none;
+  border-radius: 5px;
+  color: #ece9f2;
+  padding: 10px 15px;
+  font-size: 20px;
+  transition-duration: 0.3s;
 }
 
 button:hover {
-    background-color: #482985;
+  background-color: #482985;
 }
 
 button:active {
-    transform: translateY(4px);
+  transform: translateY(4px);
 }
 
 .mainTitle {
-    color: #5e36ad;
-    position: absolute;
-    letter-spacing: 3px;
-    top: 50%;
-    left: 50%;
-    margin: 0 -50% 0 0;
-    transform: translate(-50%, -50%);
-    text-shadow: 2px 1px #191919;
+  color: #5e36ad;
+  position: absolute;
+  letter-spacing: 3px;
+  top: 50%;
+  left: 50%;
+  margin: 0 -50% 0 0;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 1px #191919;
 }
 
 .projectButton {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    margin: 15px -50% 0 0;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  margin: 15px -50% 0 0;
+  transform: translate(-50%, -50%);
 }
 
-.githubIcon, .linkedinIcon, .mailIcon {
-    position: relative;
-    top: 7px;
+.githubIcon,
+.linkedinIcon,
+.mailIcon {
+  position: relative;
+  top: 7px;
 }
 
-.githubIcon:hover, .linkedinIcon:hover, .mailIcon:hover {
-    transform: translateY(2px);
+.githubIcon:hover,
+.linkedinIcon:hover,
+.mailIcon:hover {
+  transform: translateY(2px);
 }
 
 .projectsView {
-    color: #D1CCDC;
+  color: #d1ccdc;
 }
 
 .projectsTitle {
-    color: #5e36ad;
-    text-shadow: 2px 1px #191919;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 50px;
+  color: #5e36ad;
+  text-shadow: 2px 1px #191919;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .projectTitle {
-    color: #e3700b;
-    margin-bottom: 10px;
-    font-size: 17px;
+  color: #e3700b;
+  margin-bottom: 5px;
+  font-size: 17px;
+  text-align: center;
 }
 
 .project {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .projectImage {
-    border: #5e36ad 3px solid;
+  border: #5e36ad 3px solid;
 }
 
 .projectImage:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 .projectsRow {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
 /*---------Beginning Animation-----------*/
 
 @keyframes dropVanish {
-    30% {
-        color: #e3700b;
-    }
+  30% {
+    color: #e3700b;
+  }
 
-    50% {
-        opacity: 0.8;
-        color: #e3700b;
-    }
+  50% {
+    opacity: 0.8;
+    color: #e3700b;
+  }
 
-    80% {
-        opacity: 0.1;
-        color: #e3700b;
-    }
+  80% {
+    opacity: 0.1;
+    color: #e3700b;
+  }
 
-    100% {
-        opacity: 0.8;
-        color: #e3700b;
-    }
+  100% {
+    opacity: 0.8;
+    color: #e3700b;
+  }
 }
 
 .mainTitle span {
-    animation: dropVanish 1.1s forwards;
+  animation: dropVanish 1.1s forwards;
 }
 
 .mainTitle span:nth-of-type(2) {
-    animation-delay: .05s;
+  animation-delay: 0.05s;
 }
 
 .mainTitle span:nth-of-type(3) {
-    animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 
 .mainTitle span:nth-of-type(4) {
-    animation-delay: .15s;
+  animation-delay: 0.15s;
 }
 
 .mainTitle span:nth-of-type(5) {
-    animation-delay: .2s;
+  animation-delay: 0.2s;
 }
 
 .mainTitle span:nth-of-type(6) {
-    animation-delay: .25s;
+  animation-delay: 0.25s;
 }
 
 .mainTitle span:nth-of-type(7) {
-    animation-delay: .3s;
+  animation-delay: 0.3s;
 }
 
 .mainTitle span:nth-of-type(8) {
-    animation-delay: .35s;
+  animation-delay: 0.35s;
 }
 
 .mainTitle span:nth-of-type(9) {
-    animation-delay: .4s;
+  animation-delay: 0.4s;
 }
 
 .mainTitle span:nth-of-type(10) {
-    animation-delay: .45s;
+  animation-delay: 0.45s;
 }
 
 .mainTitle span:nth-of-type(11) {
-    animation-delay: .5s;
+  animation-delay: 0.5s;
 }
 
 .mainTitle span:nth-of-type(12) {
-    animation-delay: .55s;
+  animation-delay: 0.55s;
 }
 
 .mainTitle span:nth-of-type(13) {
-    animation-delay: .6s;
+  animation-delay: 0.6s;
 }
 
 .mainTitle span:nth-of-type(14) {
-    animation-delay: .65s;
+  animation-delay: 0.65s;
 }
 
 .mainTitle span:nth-of-type(15) {
-    animation-delay: .7s;
+  animation-delay: 0.7s;
 }
 
 .mainTitle span:nth-of-type(16) {
-    animation-delay: .75s;
+  animation-delay: 0.75s;
 }
 
 .mainTitle span:nth-of-type(17) {
-    animation-delay: .8s;
+  animation-delay: 0.8s;
 }
 
 .mainTitle span:nth-of-type(18) {
-    animation-delay: .85s;
+  animation-delay: 0.85s;
 }
 
 .mainTitle span:nth-of-type(19) {
-    animation-delay: .9s;
+  animation-delay: 0.9s;
 }
 
 .mainTitle span:nth-of-type(20) {
-    animation-delay: .95s;
+  animation-delay: 0.95s;
 }
