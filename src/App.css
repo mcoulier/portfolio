@@ -58,8 +58,8 @@ button:active {
 
 .projectButton {
   position: absolute;
-  top: 55%;
-  left: 50%;
+  top: 60vh;
+  left: 50vw;
   margin: 15px -50% 0 0;
   transform: translate(-50%, -50%);
 }
@@ -109,10 +109,13 @@ button:active {
 }
 
 .projectsRow {
-  width: 100%;
+/*   width: 50%; */
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*---------Beginning Animation-----------*/
