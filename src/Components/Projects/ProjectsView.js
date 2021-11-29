@@ -1,9 +1,11 @@
 import "../../App.css";
 import Project from "./Project";
-import ProjectData from "./projects.json";
+import data from "./projects";
+import { useMemo } from "react";
 
 export default function ProjectsView() {
-  const projects = ProjectData.data;
+  const projects = useMemo(() => Array.from(data).reverse(), [data]);
+
   return (
     <div className="projectsView">
       <h1 className="projectsTitle">Projects</h1>

@@ -10,7 +10,6 @@ export default function Nav() {
         <NavLink to="/">
           <button>Home</button>
         </NavLink>
-
         <a
           href="https://drive.google.com/file/d/1LzJv2tEIMf3JVmkP7OvdazTlBVkygVWH/view?usp=sharing"
           download
@@ -21,7 +20,6 @@ export default function Nav() {
             <i className="fa fa-download" /> CV
           </button>
         </a>
-
         <a href="https://github.com/mcoulier" target="_blank" rel="noreferrer">
           <img
             className="githubIcon"
