@@ -35,6 +35,12 @@ const projects = [
     url: "https://github.com/mcoulier/react-tvshowdb",
     image: "https://portfolio-dac64.web.app/react-tv.png",
   },
+  {
+    id: 7,
+    title: "React Quiz App",
+    url: "https://github.com/mcoulier/react-quiz",
+    image: "https://portfolio-dac64.web.app/react-quiz.png",
+  },
 ];
 
 export default projects;
