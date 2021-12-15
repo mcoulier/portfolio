@@ -1,45 +1,60 @@
+import phpImg from "../../Assets/php.png";
+import ticketImg from "../../Assets/ticket.png";
+import nodeImg from "../../Assets/node.png";
+import chartImg from "../../Assets/charts.png";
+import retroImg from "../../Assets/retro-landing.png";
+import tvImg from "../../Assets/tv.png";
+import quizImg from "../../Assets/quiz.png";
+import cloneImg from "../../Assets/clone.png";
+
 const projects = [
   {
     id: 1,
     title: "MySQL CRUD PHP",
     url: "https://github.com/MonoraxXiV/php-crud",
-    image: "https://portfolio-dac64.web.app/php-crud-mysql.png",
+    image: `${phpImg}`,
   },
   {
     id: 2,
     title: "Ticketing system",
     url: "https://github.com/nikkizol/challenge-workflow",
-    image: "https://portfolio-dac64.web.app/ticket-system.png",
+    image: `${ticketImg}`,
   },
   {
     id: 3,
     title: "Node.js User Auth",
     url: "https://github.com/mcoulier/node-user-auth",
-    image: "https://portfolio-dac64.web.app/node-user-auth.png",
+    image: `${nodeImg}`,
   },
   {
     id: 4,
     title: "React Styled Charts",
     url: "https://github.com/mcoulier/react-styled-charts",
-    image: "https://portfolio-dac64.web.app/react-charts.png",
+    image: `${chartImg}`,
   },
   {
     id: 5,
     title: "React Landing Page",
     url: "https://github.com/mcoulier/react-landing-page",
-    image: "https://portfolio-dac64.web.app/react-landing.png",
+    image: `${retroImg}`,
   },
   {
     id: 6,
     title: "React Tv-show App",
     url: "https://github.com/mcoulier/react-tvshowdb",
-    image: "https://portfolio-dac64.web.app/react-tv.png",
+    image: `${tvImg}`,
   },
   {
     id: 7,
     title: "React Quiz App",
     url: "https://github.com/mcoulier/react-quiz",
-    image: "https://portfolio-dac64.web.app/react-quiz.png",
+    image: `${quizImg}`,
+  },
+  {
+    id: 8,
+    title: "Responsive Clone Page",
+    url: "https://github.com/mcoulier/react-insure-landing-page",
+    image: `${cloneImg}`,
   },
 ];
 

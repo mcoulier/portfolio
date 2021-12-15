@@ -7,7 +7,6 @@
 
 nav {
   background-color: #292828;
-  overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -16,11 +15,12 @@ nav {
 }
 
 nav ul {
-  margin-bottom: 4px;
+  display: flex;
+  padding: 6px 0px;
 }
 
 nav ul a {
-  margin: 6px;
+  padding-left: 10px;
 }
 
 body {
@@ -78,8 +78,15 @@ button:active {
   transform: translateY(2px);
 }
 
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
 .projectsView {
-  color: #d1ccdc;
+  max-width: 40rem;
 }
 
 .projectsTitle {
@@ -106,17 +113,22 @@ button:active {
 }
 
 .projectImage:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .projectsRow {
-/*   width: 50%; */
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
+  gap: 3%;
+}
+
+/*---------Media Queries-----------------*/
+
+@media (max-width: 750px) {
+  .projectsRow {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*---------Beginning Animation-----------*/
