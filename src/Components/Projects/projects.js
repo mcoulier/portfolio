@@ -6,6 +6,7 @@ import retroImg from "../../Assets/retro-landing.png";
 import tvImg from "../../Assets/tv.png";
 import quizImg from "../../Assets/quiz.png";
 import cloneImg from "../../Assets/clone.png";
+import chatImg from "../../Assets/chat.png";
 
 const projects = [
   {
@@ -55,6 +56,12 @@ const projects = [
     title: "Responsive Clone Page",
     url: "https://github.com/mcoulier/react-insure-landing-page",
     image: `${cloneImg}`,
+  },
+  {
+    id: 9,
+    title: "React Chat App",
+    url: "https://github.com/mcoulier/react-chat-app",
+    image: `${chatImg}`,
   },
 ];
 
